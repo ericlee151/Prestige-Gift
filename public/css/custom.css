@@ -1,0 +1,340 @@
+
+
+/*
+	Global style
+*/
+
+*, *::after, *::before{
+	box-sizing: border-box;
+}
+
+.clearfix:after, .clearfix:before{
+	display: table;
+	position: relative;
+	content: " ";
+}
+
+.clearfx::after{
+	clear: left;
+}
+
+.black-bg{
+	background: #000000;
+}
+
+.bg-yellow{
+	background: yellow;
+}
+
+.section{
+	padding-top: 60px;
+	padding-bottom: 30px
+}
+
+.section-padding-sm{
+	padding: 20px 0;
+}
+
+.section-heading{
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.section-heading h2{
+	position: relative;
+	color: inherit;
+	display: inline-block;
+
+}
+
+.section-heading h2::after{
+	position: absolute;
+	content: " ";
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	width: 100%;
+	background: yellow;
+}
+
+.col-no-padding{
+	padding: 0 !important;
+}
+
+/*
+	Business concept
+*/
+
+.business-concept{
+	position: relative;
+	width: 100%;
+	color: #f1f1f1;
+}
+
+.business-concept .section-heading h2::after{
+	width: 50%;
+	margin: 0 auto;
+	left: 25%;
+}
+
+.getstart{
+	position: relative;
+	background: transparent;
+}
+.getstart h2, 
+.getstart p{
+
+	color: #f1f1f1;
+	padding: 0 90px;
+}
+
+.getstart p{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.getstart h2{
+	font-size: 2.5em;
+}
+.getstart .btn-colore .btn.btn-white{
+	background-color: #ffffff;
+    color: #000;
+    font-weight:800;
+    font-size:16px;
+}
+
+
+/*
+	Service section
+*/
+.service{
+	position: relative;
+	width: 100%;
+	color: #333;
+}
+
+.service .img-thumb{
+	text-align: center;
+	background-position: top 
+}
+
+.service .img-thumb img{
+	max-width: 50%;
+	display: block;
+	float: right;
+	vertical-align: top;
+}
+
+.service .content{
+	position: relative;
+	padding: 30px 90px 0 0;
+}
+
+/*
+	testimonail section
+*/
+
+.testimonail{
+	position: relative;
+	width: 100%;
+}
+
+.testimonail.zoomOut .box .caption{
+	transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+}
+
+.testimonail.zoomOut .box:hover .caption{
+	opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+}
+
+.testimonail .box{
+	position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.testimonial .box .img-thumb{
+	background-size: cover;
+
+}
+
+.testimonail .box .caption{
+	position: absolute;
+    cursor: auto;
+    backface-visibility: hidden;
+    background: rgba(255,255,255,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.testimonail .box .content{
+	position: relative;
+	width: 100%;
+	padding: 15px 0;
+}
+
+.testimonail .box .content p{
+	margin-bottom: 30px;
+}
+
+.testimonail .box .readmore{
+	position: relative;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.testimonail .box .readmore a{
+	background: yellow;
+	color: #333;
+	line-height: 1;
+	display: inline;
+	margin: 0 auto;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.action-section{
+	position: relative;
+	width: 100%;
+}
+
+.action-section .inner{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding: 35px 0;
+}
+
+.action-section a.cta{
+	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	background: #000;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 15px 30px;
+	line-height: 1;
+	text-decoration: none;
+}
+
+/*
+	Modal form
+*/
+
+.modal-open .modal.fade {
+	background: rgba(239,220,5,0.3);
+	border-radius: 0;
+}
+
+#myModal .modal-content .form-header{
+	position: relative;
+	padding: 0 24px;
+	width: 80%;
+    top: -30px;
+    margin: 0 auto;
+
+}
+
+#myModal .modal-content .form-header .inner{
+	position: relative;
+   
+    text-align: center;
+    background: #222;
+    color: yellow;
+    padding: 8px;
+}
+	
+
+#myModal .modal-content .instruction{
+	position: relative;
+	width: 100%;
+	text-align: center;
+
+}
+
+#myModal .modal-content .questions-list{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+#myModal .question{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#myModal .question .heading-question{
+	width: 100%;
+	padding: 9px 20px;
+	color: #fff;
+	background: #222;
+	border: 2px solid yellow;
+}
+
+#myModal .question .heading-question p{
+	margin: 0;
+	font-size: 16px;
+}
+
+#myModal .question .radio-inputs{
+	width: 100%;
+	padding: 15px 35px;
+	position: relative;
+}
+
+#myModal .question .single-radio{
+	float: left;
+	width: 50%;
+	padding: 5px 0;
+	text-align: center;
+}
+.modal-footers .btn.btn-white{
+	margin: 0 0 20;
+	margin-left: 215px;
+    background-color: black;
+    color: yellow;
+    font-weight: 800;
+    font-size: 16px;
+ }
+ .modal-footers .btn.btn-default.btn-simple{
+ 	background-color: darkkhaki;
+ 	margin: 15 0 5;
+ 	margin-left: 105px;
+    color: black;
+    font-weight: 900;
+    font-size: 13px;
+    box-shadow: none;
+ }
+ .getwrite p{
+ 	font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 0 150px 0;
+ }
+ .lement.style {
+    float: left;
+    margin: 0 500 15;
+}
