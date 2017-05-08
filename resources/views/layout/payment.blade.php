@@ -64,7 +64,7 @@
 								</label>
 							</div>
 							<div align="center">
-								<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;">Make A Payment</button>
+								<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;" data-toggle="modal" data-target="#myModal">Make A Payment</button>
 							</div>
 							
 						</div>
@@ -79,7 +79,24 @@
 			</div>
 		</div>
 	</div>
-	
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  	<div class="modal-dialog">
+    	<div class="modal-content" style="background-color: black;">
+      		<div class="modal-header">
+        		<h4 class="modal-title" id="myModalLabel" align="center" style="color: #FFD700"><i class="fa fa-check-circle fa-5x" aria-hidden="true"></i></h4>
+      		</div>
+      		<div class="modal-body">
+        		<h2 align="center" style="color: white;">Success Payment !<br> Thank you for comming by !</h2>
+      		</div>
+      		<div class="modal-footer" style="background-color: white;padding: 20px; text-align: center;">
+        		<a href="/">
+        			<button type="button" class="btn btn-warning" style="background-color: #FFD700;color: black; width: 300px; font-size: 25px; border: 2px solid black;">OK</button>
+        		</a>
+      		</div>
+    	</div>
+  	</div>
+</div>
 <style type="text/css">
 	.margin{
 		margin-top: 100px;
@@ -93,6 +110,9 @@
 	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
 	    background-color: black;
 	    transition: background-color .1s .2s;
+	}
+	.modal-open .modal {
+		margin-top: 150px;
 	}
 </style>
 @endsection

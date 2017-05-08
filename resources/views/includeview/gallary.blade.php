@@ -1,8 +1,7 @@
 <div id="slider">
-    <div class="row">
         <div id="carousel-bounding-box">
             <div class="carousel slide" id="myCarousel">
-                                <!-- Carousel items -->
+            <!-- Carousel items -->
                 <div class="carousel-inner">
                     <div class="active item" data-slide-number="16">
                         <img src="http://www.gourmetgiftbaskets.com/images/products/Christmas-Gift-Baskets/Christmas-Chocolates-Gift-Basket-Deluxe_large.jpg"></div>
@@ -18,7 +17,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </div>
 <div id="slider-thumbs">
     <!-- Bottom switcher of slider -->

@@ -20,70 +20,40 @@
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link href="{{ asset('/css/demo.css') }}" rel="stylesheet" />
-	<style type="text/css">
-		.brand-centered {
-		  display: flex;
-		  justify-content: center;
-		  position: absolute;
-		  width: 100%;
-		  left: 0;
-		  top: 0;
-		}
-		.navbar-brand {
-		  display: flex;
-		  align-items: center;
-		}
-		.navbar{
-			border-radius: 0px;
-		}
-		.navbar, .navbar.navbar-default {
-		    background-color: black;
-		    color: #FFD700;
-		}
-		body{
-			background-color: white;
-		}
-		.section{
-			margin-top: 100px;
-		}
-		.section-black{
-			background-color: black;
-		}
-		#txt_footer{
-			color: white;
-		}
-	</style>
+	<link href="{{ asset('/css/master.css') }}" rel="stylesheet" />
 </head>
 
 <body>
 
 	<!-- Navbar Info -->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default navbar-fixed-top">
 	    <div class="container footer">
-	      	<div class="navbar-header">
-		        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-		          	<span class="sr-only">Toggle navigation</span>
-		          	<span class="icon-bar"></span>
-		          	<span class="icon-bar"></span>
-		          	<span class="icon-bar"></span>
-		        </button>
-	      	</div>
-	      
 	      	<div class="brand-centered">
 	      		<div class="logo">
 		            <img src="{{ asset('picture/logo/logo.png')}}"  rel="tooltip" title="<b>Prestige Gift</b> is the best wishes for happiness <b> --Prestige </b>" data-placement="bottom" data-html="true">
 		        </div>
 	      	</div>
+
+	      	<div class="navbar-header">
+
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+		        	<span class="sr-only">Toggle navigation</span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		    	</button>
+	      	</div>
 	   
-	      	<div id="navbar" class="navbar-collapse collapse">
+	      	<div id="navigation-index" class="collapse navbar-collapse">
 		        <ul class="nav navbar-nav navbar-left">
 		          	<li class="active"><a href="#">Home</a></li>
 		          	<li><a href="#">About</a></li>
 		        </ul>
 		        <ul class="nav navbar-nav navbar-right">
-		          	<li class="active"><a href="#">Home</a></li>
+		          	<li><a href="#">Home</a></li>
 		          	<li><a href="#">About</a></li>
 		        </ul>
+
 	      	</div>
 	    </div>
 	</nav>
@@ -148,16 +118,29 @@
 	<script src="{{ asset('/js/material-kit.js') }}" type="text/javascript"></script>
 
 	<script type="text/javascript">
+
 		$(document).ready(function(){
-			$(".owl-carousel").owlCarousel({
-				items:4,
+			$('.owl-carousel').owlCarousel({
+			    items: 4,
 			    loop:true,
 			    margin:10,
 			    autoplay:true,
-			    autoplayTimeout:5000,
-			    autoplayHoverPause:true
-			});
+			    autoplayTimeout:3000,
+			    autoplayHoverPause:true,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:2
+			        },
+			        1000:{
+			            items:4
+			        }
+			    }
+			})
 		});
+
 		$(document).ready(function () {
 
 	    var navListItems = $('div.setup-panel div a'),

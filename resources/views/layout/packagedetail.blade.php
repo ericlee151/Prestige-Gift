@@ -3,16 +3,19 @@
 @section('header')
     <link rel="stylesheet" href="{{ asset('/css/owl.carousel.min.css')}}">
 	<link rel="stylesheet" href="{{ asset('/css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" href="{{ asset('/css/package.css')}}">
 @endsection
 
 @section('body')
 <div class="main main-raised">
 	<div class="section section-basic">
 	   	<div class="container">
-	   		<div class="col-lg-6 col-sm-6 col-md-6">
+
+	   		<div class="col-lg-6 col-sm-12 col-md-12">
 	   			@include('includeview.gallary')
 	   		</div>
-	   		<div class="col-lg-6 col-sm-6 col-md-6">
+
+	   		<div class="col-lg-6 col-sm-12 col-md-12">
 	   			<h1>Package Name</h1>
 	   			<h4>Rate : 
 	   				<span style="color: #FFD700;">
@@ -236,73 +239,35 @@
 			    	</a>
 			    </div>
 
+			    <div class="item">
+			    	<a href="">
+			    		<div class="column productbox">
+						    <img src="{{asset('/picture/gift/g4.jpg')}}" class="img-responsive">
+						    <div class="producttitle">
+						    	<h4>CHOCOLATE LOVE</h4>
+						    	<p >This is the package make perfectly for valentine day indoor and out door</p>
+						    </div>
+						    <div class="productprice"><div class="pull-right"><a href="#" class="btn btn-danger btn-sm" role="button">BUY</a></div><div class="pricetext">£8.95</div></div>
+						</div>
+			    	</a>
+			    </div>
+
+			    <div class="item">
+			    	<a href="">
+			    		<div class="column productbox">
+						    <img src="{{asset('/picture/gift/g5.jpg')}}" class="img-responsive">
+						    <div class="producttitle">
+						    	<h4>CHOCOLATE LOVE</h4>
+						    	<p >This is the package make perfectly for valentine day indoor and out door</p>
+						    </div>
+						    <div class="productprice"><div class="pull-right"><a href="#" class="btn btn-danger btn-sm" role="button">BUY</a></div><div class="pricetext">£8.95</div></div>
+						</div>
+			    	</a>
+			    </div>
+
 			</div>
 		</div>
-
-		<style>
-			.card .header-success {
-			    background: linear-gradient(60deg, #000000, #000000);
-			}
-			.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-			    background-color: #fbc02d;
-			    color: #FFFFFF;
-			    box-shadow: 0 16px 26px -10px rgba(251, 192, 45, 0.5), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(251, 192, 45, 0.34);
-			}
-			.tab-content>.tab-pane {
-			    text-align: left;
-			}
-			.btn.btn-primary:focus, .btn.btn-primary:active, .btn.btn-primary:hover, .navbar .navbar-nav > li > a.btn.btn-primary:focus, .navbar .navbar-nav > li > a.btn.btn-primary:active, .navbar .navbar-nav > li > a.btn.btn-primary:hover {
-			    box-shadow: 0 14px 26px -12px rgba(251, 192, 45, 0.42), 0 4px 23px 0px rgba(251, 192, 45, 0.29), 0 8px 10px -5px rgba(251, 192, 45, 0.26);
-			}
-			.btn.btn-primary, .navbar .navbar-nav > li > a.btn.btn-primary {
-			    box-shadow: 0 2px 2px 0 rgba(251, 192, 45, 0.22), 0 3px 1px -2px rgba(251, 192, 45, 0.35), 0 1px 5px 0 rgba(251, 192, 45, 0.34);
-			}
-			.card .content {
-			    padding:  50px;
-			}
-			.content{
-				max-height: 459px;
-    			overflow-y: scroll;
-			}
-			.clearfix{
-				margin-bottom: 40px;
-			}
-			#owl-demo .item{
-			  margin: 3px;
-			}
-			#owl-demo .item img{
-			  display: block;
-			  width: 100%;
-			  height: auto;
-			}
-			.productbox {
-			    background-color:#ffffff;
-				padding:10px;
-				margin-bottom:10px;
-				-webkit-box-shadow: 0 8px 6px -6px  #999;
-				   -moz-box-shadow: 0 8px 6px -6px  #999;
-				        box-shadow: 0 8px 6px -6px #999;
-			}
-			.producttitle {
-				padding:5px 0 5px 0;
-			}
-			.productprice {
-				border-top:1px solid #dadada;
-				padding-top:5px;
-			}
-			.pricetext {
-				font-weight:bold;
-				font-size:1.4em;
-			}
-			a:hover{
-				text-decoration: none;
-				color: #FFD700;
-			}
-			a{
-				color: black;
-			}
-		</style>
-
+		
 	</div>     
 </div>
 <!-- Sart Modal -->

@@ -1,0 +1,31 @@
+.brand-centered {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	width: 10%;
+	left: 45%;
+	top: 0;
+}
+.navbar-brand {
+	display: inline-block;
+	align-items: center;
+}
+.navbar{
+	border-radius: 0px;
+}
+.navbar, .navbar.navbar-default {
+	background-color: black;
+	color: #FFD700;
+}
+body{
+	background-color: white;
+}
+.section{
+	margin-top: 100px;
+}
+.section-black{
+	background-color: black;
+}
+#txt_footer{
+	color: white;
+}
