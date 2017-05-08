@@ -11,18 +11,17 @@
 |
 */
 Route::get('/', function () {
-    return view('homeindex');
+    return view('layout/home');
 });
-Route::get('giftoption1/', function () {
-    return view('giftoption');
+Route::get('/question', function () {
+    return view('layout/giftquestion');
 });
-Route::get('/pagkage', function () {
-    return view('/packagedetail');
+Route::get('/package', function () {
+    return view('layout/packagedetail');
 });
 Route::get('/payment', function() {
     return view('layout/payment');
 });
-
-Route::get('/hello',function(){
-		return view('giftoption');
+Route::get('/result',function(){
+	return view('layout/giftoption');
 });

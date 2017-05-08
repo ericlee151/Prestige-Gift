@@ -10,23 +10,32 @@
 
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}">
 
 	<!-- CSS Files -->
     <link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('/css/material-kit.css') }}" rel="stylesheet"/>
+
 	@yield('header')
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
+
 	<link href="{{ asset('/css/demo.css') }}" rel="stylesheet" />
 	<style type="text/css">
+		body{
+			font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+		}
+		.btn, .navbar-default, .navbar-default .navbar-header .navbar-brand, h1, h2, h3, h4, h5, h6 {
+		    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+		}
 		.brand-centered {
 		  display: flex;
 		  justify-content: center;
 		  position: absolute;
-		  width: 100%;
-		  left: 0;
+		  width: 10%;
+		  left: 45%;
 		  top: 0;
 		}
 		.navbar-brand {
@@ -39,6 +48,7 @@
 		.navbar, .navbar.navbar-default {
 		    background-color: black;
 		    color: #FFD700;
+		    margin-bottom: 0px;
 		}
 		body{
 			background-color: white;
@@ -48,6 +58,13 @@
 		}
 		.section-black{
 			background-color: black;
+		}
+		.section-yellow{
+			background-color: #fbc02d;
+		}
+		.margin-small{
+			margin-top: 0px;
+			margin-bottom: 0px;
 		}
 		#txt_footer{
 			color: white;
@@ -62,10 +79,7 @@
 	    <div class="container footer">
 	      	<div class="navbar-header">
 		        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-		          	<span class="sr-only">Toggle navigation</span>
-		          	<span class="icon-bar"></span>
-		          	<span class="icon-bar"></span>
-		          	<span class="icon-bar"></span>
+		          	<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
 		        </button>
 	      	</div>
 	      
@@ -90,6 +104,7 @@
 	<!-- End Navbar Info -->
 
 	<!-- body -->
+		<div style="margin-top: 70px;"></div>
 		@yield('body')
 	<!-- end of body -->
 	
@@ -155,7 +170,19 @@
 			    margin:10,
 			    autoplay:true,
 			    autoplayTimeout:5000,
-			    autoplayHoverPause:true
+			    autoplayHoverPause:true,
+			    responsive:{
+			        0:{
+			            items:1,
+			        },
+			        600:{
+			            items:2,
+			        },
+			        1000:{
+			            items:4,
+			            loop:true
+			        }
+			    }
 			});
 		});
 		$(document).ready(function () {
