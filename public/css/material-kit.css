@@ -18,7 +18,9 @@
 /* SHADOWS */
 /* Shadows (from mdl http://www.getmdl.io/) */
 body {
-  background-color: #CCCCCC;
+  background-color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
 }
 body.inverse {
   background: #333333;
@@ -41,7 +43,7 @@ body.inverse .card .form-control {
 }
 
 body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-family: 'Arima Madurai', cursive;
   font-weight: 300;
   line-height: 1.5em;
 }
