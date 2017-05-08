@@ -20,9 +20,9 @@
         </div>
     </div>
 </div>
-<div id="slider-thumbs">
+<!--<div id="slider-thumbs">
     <!-- Bottom switcher of slider -->
-    <ul class="hide-bullets">
+    <!--<ul class="hide-bullets">
         <li class="col-sm-3 col-xs-3">
             <a class="thumbnail" id="carousel-selector-16" style="width: 80px; height: 80px;">
                 <img src="http://www.gourmetgiftbaskets.com/images/products/Christmas-Gift-Baskets/Christmas-Chocolates-Gift-Basket-Deluxe_large.jpg">
@@ -41,8 +41,8 @@
         <li class="col-sm-3 col-xs-3">
             <a class="thumbnail" id="carousel-selector-3" style="width: 80px; height: 80px;"><img src="https://s-media-cache-ak0.pinimg.com/736x/83/18/59/831859fade44904975168ff72274f005.jpg"></a>
         </li>
-    </ul>
-</div>
+    </ul>-->
+
 <style type="text/css">
     .hide-bullets {
         list-style:none;

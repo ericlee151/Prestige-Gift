@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Prestige | Package Info</title>
+	<title>Prestige1 | Package Info</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -68,13 +68,12 @@
 		          	<span class="icon-bar"></span>
 		        </button>
 	      	</div>
-	      
 	      	<div class="brand-centered">
 	      		<div class="logo">
 		            <img src="{{ asset('picture/logo/logo.png')}}"  rel="tooltip" title="<b>Prestige Gift</b> is the best wishes for happiness <b> --Prestige </b>" data-placement="bottom" data-html="true">
 		        </div>
 	      	</div>
-	   
+
 	      	<div id="navbar" class="navbar-collapse collapse">
 		        <ul class="nav navbar-nav navbar-left">
 		          	<li class="active"><a href="#">Home</a></li>
@@ -88,11 +87,9 @@
 	    </div>
 	</nav>
 	<!-- End Navbar Info -->
-
 	<!-- body -->
 		@yield('body')
 	<!-- end of body -->
-	
 	<!-- footer -->
 	<div class="section section-black">
 		<div class="container">

@@ -93,7 +93,7 @@
 
                 <div style="margin-bottom: 40px;"></div>
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                <a href="payment"><button class="btn btn-warning nextBtn pull-right" type="button">NEXT</button></a>
+                <button class="btn btn-warning nextBtn pull-right" type="button"><a href="payment">NEXT</a></button>
             </div>
         </div>
     </form>
