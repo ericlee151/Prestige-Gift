@@ -10,13 +10,19 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
-    return view('layout/packagedetail');
+    return view('homeindex');
 });
-
+Route::get('giftoption1/', function () {
+    return view('giftoption');
+});
+Route::get('/pagkage', function () {
+    return view('/packagedetail');
+});
 Route::get('/payment', function() {
     return view('layout/payment');
 });
 
-
+Route::get('/hello',function(){
+		return view('giftoption');
+});
