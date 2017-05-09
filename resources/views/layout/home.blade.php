@@ -15,7 +15,6 @@
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
 			</ol>
-
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner">
 				<div class="item active">
@@ -203,9 +202,6 @@
 		</div>
 	</div>
 </div>
-
-
-
 <style type="text/css">
 	#white{
 		color: white;
