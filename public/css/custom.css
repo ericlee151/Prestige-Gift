@@ -19,7 +19,7 @@
 }
 
 .black-bg{
-	background: #000000;
+	background: white;
 }
 
 .bg-yellow{
@@ -260,7 +260,6 @@
 
 #myModal .modal-content .form-header .inner{
 	position: relative;
-   
     text-align: center;
     background: #222;
     color: yellow;
@@ -314,12 +313,12 @@
 	text-align: center;
 }
 .modal-footers .btn.btn-white{
-	margin: 0 0 20;
-	margin-left: 215px;
-    background-color: black;
+	background-color: black;
     color: yellow;
     font-weight: 800;
-    font-size: 16px;
+    font-size: 20px;
+    width: 30%;
+    margin: 15px 500px 0;
  }
  .modal-footers .btn.btn-default.btn-simple{
  	background-color: darkkhaki;
@@ -357,12 +356,13 @@
 .questionszzzzz{
 	margin: 100px 500px 100px;
 }
+
 .section-headings{
 	position: relative;
     width: 100%;
     margin-bottom: 30px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .section-headings{
 	position: relative;
@@ -378,6 +378,102 @@
 }
 
 .section-headings h2::after{
+	position: absolute;
+	content: " ";
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	width: 100%;
+	background: yellow;
+}
+.header-giftoption .headers-content{
+	position: relative;
+	padding: 0 24px;
+	width: 70%;
+    top: -30px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.header-giftoption .gift-title{
+    text-align: center;
+    background: #222;
+    color: yellow;
+    padding: 8px;
+}
+.header-giftoption .instruction-gift{
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.header-giftoption .header-gift{
+	padding: 25px;
+	background: #ecf0f1;
+	}
+.header-giftoption .gift-option {
+	position: relative;
+	padding: 0 24px;
+	width: 90%;
+    top: -30px;
+    margin: 0 auto;  
+
+}
+.questiongift{
+	position: relative;
+	width: 80%;
+	margin: 0 auto;
+}
+.gift-question{
+	position: relative;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.heading-giftquestion{
+	width: 100%;
+	padding: 9px 20px;
+	color: #fff;
+	background: #222;
+	border: 2px solid yellow;
+}
+.heading-giftquestion p{
+	margin: 0;
+	font-size: 16px;
+}
+.single-radios{
+	float: left;
+	width: 50%;
+	padding: 5px 0;
+	text-align: center;
+}
+.radio-input{
+	width: 100%;
+	padding: 15px 35px;
+	position: relative;
+}
+.section-heading1{
+	position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+.section-heading1{
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.section-heading1 p{
+	position: relative;
+	color: inherit;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+.section-heading1 p::after{
 	position: absolute;
 	content: " ";
 	bottom: 0;
