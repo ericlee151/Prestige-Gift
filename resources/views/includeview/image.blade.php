@@ -55,7 +55,7 @@
     }
 
     .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-        width: 100%;
+        width: 80%;
     }
 
     .col-sm-3 a {
