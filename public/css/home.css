@@ -1,0 +1,23 @@
+#white{
+color: white;
+}
+.section-heading h2::after {
+position: absolute;
+content: " ";
+bottom: 0;
+left: 0;
+height: 3px;
+width: 100%;
+background: #fbc02d;
+}
+.section {
+padding-bottom: 60px;
+}
+.item {
+	height: 650px;
+}
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}	

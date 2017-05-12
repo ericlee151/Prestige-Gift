@@ -1,0 +1,50 @@
+body{
+	font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+.brand-centered {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 10%;
+  left: 45%;
+  top: 0;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar{
+	border-radius: 0px;
+}
+body{
+	background-color: white;
+}
+.section{
+	margin-top: 100px;
+}
+.section-yellow{
+	background-color: #fbc02d;
+}
+.margin-small{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#txt_footer{
+	color: white;
+} 
+#navbar ul, ol {
+   	width: 45%;
+}   
+#navbar ul > li  {
+	width: 45%;
+	text-align: center;
+}
+@media screen and (max-width: 770px) {
+    #navbar ul, ol {
+   		width: 100%;
+	}  
+	#navbar ul > li  {
+		width: 100%;
+		text-align: center;
+	}
+}

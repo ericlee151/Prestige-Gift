@@ -1,5 +1,9 @@
 @extends('masterview/master')
 
+@section('header')
+<title>Prestige | Payment</title>
+@endsection
+
 @section('body')
 	<div class="margin">
 		<h2 style="text-align: center;font-weight: bold;margin-bottom: 80px;">SELECT PAYMENT METHOD</h2>
