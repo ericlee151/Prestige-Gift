@@ -8,6 +8,7 @@
 @section('body')
 <!-- Carousel Card -->
 <div class="card-carousel">
+<<<<<<< HEAD
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 <div class="carousel slide" data-ride="carousel">
 
@@ -34,6 +35,36 @@
 			<img src="{{asset('/img/bg4.jpg')}}" alt="Awesome Image">
 			<div class="carousel-caption">
 				<h4><i class="material-icons">location_on</i> Yellowstone National Park, United States</h4>
+=======
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<div class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="{{asset('/img/bg4.jpg')}}" alt="Awesome Image">
+					<div class="carousel-caption">
+						<h4><i class="material-icons">location_on</i> Yellowstone National Park, United States</h4>
+					</div>
+				</div>
+				<div class="item">
+					<img src="{{asset('/img/bg4.jpg')}}" alt="Awesome Image">
+					<div class="carousel-caption">
+						<h4><i class="material-icons">location_on</i> Somewhere Beyond, United States</h4>
+					</div>
+				</div>
+				<div class="item">
+					<img src="{{asset('/img/bg4.jpg')}}" alt="Awesome Image">
+					<div class="carousel-caption">
+						<h4><i class="material-icons">location_on</i> Yellowstone National Park, United States</h4>
+					</div>
+				</div>
+>>>>>>> 63b7dab15a77c6081d0e1d775d7f86cb07cca771
 			</div>
 		</div>
 	</div>
@@ -170,6 +201,7 @@
 </div>
 </div>
 </div>
+<<<<<<< HEAD
 
 
 
@@ -207,4 +239,23 @@
 </div>
 </div>
 </div>
+=======
+<style type="text/css">
+	#white{
+		color: white;
+	}
+	.section-heading h2::after {
+	    position: absolute;
+	    content: " ";
+	    bottom: 0;
+	    left: 0;
+	    height: 3px;
+	    width: 100%;
+	    background: #fbc02d;
+	}
+	.section {
+	    padding-bottom: 60px;
+	}
+</style>
+>>>>>>> 63b7dab15a77c6081d0e1d775d7f86cb07cca771
 @endsection
