@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="{{ asset('/css/owl.carousel.min.css')}}">
 <link rel="stylesheet" href="{{ asset('/css/owl.theme.default.min.css')}}">
 <link rel="stylesheet" href="{{ asset('/css/package.css')}}">
+<link rel="stylesheet" href="{{ asset('/css/wizard.css')}}">
 @endsection
 
 @section('body')

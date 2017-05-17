@@ -2,6 +2,7 @@
 
 @section('header')
 <title>Prestige | Payment</title>
+<link href="{{ asset('/css/card.css') }}" rel="stylesheet"/>
 @endsection
 
 @section('body')
