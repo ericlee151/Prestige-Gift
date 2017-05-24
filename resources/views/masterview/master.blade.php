@@ -25,7 +25,7 @@
 	<link href="{{ asset('/css/demo.css') }}" rel="stylesheet" />
 	<style type="text/css">
 		.navbar, .navbar.navbar-default {
-		    background-color: black;
+		    background-color: #232323;
 		    color: #FFD700;
 		    margin-bottom: 0px;
 		}
@@ -37,7 +37,7 @@
 		    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 		}
 		.section-black{
-			background-color: black;
+			background-color: #232323;
 		}
 		.section-yellow{
 			background-color: #fbc02d;
@@ -87,28 +87,14 @@
 			<div align="center">
 				<img src="{{asset('/picture/logo/logo.png')}}" alt="">
 			</div>
-			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-6 text-center">
+			<div class="row" align="left">
+				<div class="col-md-4 col-sm-6 text-center">
 					<h3 id="txt_footer">About Us</h3>
 					<p id="txt_footer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						Prestige offers Gift Consultation, Romantic Date planning and Premium Gift Packaging services, Which operates in Phnom Penh. 
 					</p>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 text-center">
-					<h3 id="txt_footer">Follow Us</h3>
-					<span id="txt_footer" style="font-size: 50px;">
-						<i class="fa fa-facebook-square" aria-hidden="true"></i>
-						<i class="fa fa-instagram" aria-hidden="true"></i>
-					</span>
-					<div style="margin-bottom: 20px;"></div>
-					<p id="txt_footer">Website : <a href="#" style="color: #FFD700;">www.prestigegift.com</a></p>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-6 text-center">
+				<div class="col-md-4 col-sm-6 text-center">
 					<h3 id="txt_footer">Our Service</h3>
 					<p id="txt_footer">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -119,6 +105,13 @@
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 					</p>
 				</div>
+				<div class="col-md-4 col-sm-6 text-center">
+					<h3 id="txt_footer">Follow Us</h3>
+					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPrestigeGiftShop%2F%3Ffref%3Dts&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="360" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					<div style="margin-bottom: 20px;"></div>
+					<p id="txt_footer">Website : <a href="#" style="color: #FFD700;">www.prestigegift.com</a></p>
+				</div>
+				
 			</div>
 		</div>
 	</div>
@@ -127,12 +120,18 @@
 
 </body>
 	<script src="{{ asset('/js/jquery.min.js') }}" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="{{ asset('/js/owl.carousel.min.js') }}" type="text/javascript"></script>
 	<script src="{{ asset('/js/bootstrap.min.js') }}" type="text/javascript"></script>
 	<script src="{{ asset('/js/material.min.js') }}" ></script>
 
 	<script src="{{ asset('/js/nouislider.min.js') }}" type="text/javascript"></script>
+	<script src="{{ asset('/js/jquery.flexisel.js') }}" type="text/javascript"></script>
+
+
 	<script src="{{ asset('/js/bootstrap-datepicker.js') }}" type="text/javascript"></script>
 	<script src="{{ asset('/js/material-kit.js') }}" type="text/javascript"></script>
+	<script src="{{ asset('/js/jquery.flexisel.js') }}" type="text/javascript"></script>
 	<script src="{{ asset('/js/custom.js') }}" type="text/javascript"></script>
+
 </html>

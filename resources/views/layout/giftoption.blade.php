@@ -1,40 +1,14 @@
 @extends('masterview/master')
-<html lang="en">
-<head>
-	
-	<meta charset="utf-8" />
-	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>GiftQuestion || Package Info</title>
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-	<!--     Fonts and icons     -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-   	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai:400,700|Assistant|Raleway" rel="stylesheet">
-   	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="{{ asset('/css/custom.css') }}">
-	<link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}">
-	<link rel="stylesheet" href="{{ asset('/css/material-kit.css') }}">
 
-	<!-- CSS Files -->
-	<link href="{{ asset('/css/bootstrap.min.css') }}" rel="stylesheet" />
-    <link href="{{ asset('/css/material-kit.css') }}" rel="stylesheet" />
-    <link href="{{ asset('/css/custom.css') }}" rel="stylesheet" />
-	<!-- CSS Just for demo purpose, don't include it in your project -->
-	<link href="{{ asset('/css/demo.css') }}" rel="stylesheet" />
-	<link href="{{ asset('/css/custom.css') }}" rel="stylesheet" />
-</head>
 @section('body')
-<div class="container">
+		<div class="container">
 			<div class="headers">
 				<div class="section-headings text-center">
 					<h2>YOUR GIFT OPTIONS</h2>
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="container">
+		<div class="container">
 	   		<div class="col-lg-6 col-sm-6 col-md-6">
 	   			@include('includeview.image')
 	   		</div>

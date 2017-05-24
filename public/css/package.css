@@ -59,3 +59,25 @@ a:hover{
 a{
 	color: black;
 }
+#bold{
+	font-weight: bold;
+}
+.style .tab-content>.tab-pane {
+    text-align: center;
+  }
+  .nav>li>a {
+    text-align: center;
+  }
+  
+  .flexi-nav >li>a:hover, .nav>li>a:focus {
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #fbc02d;
+  }
+
+  .card .header-primary {
+    background: linear-gradient(60deg, #fbc02d, #fbc02d);
+}
+#padding{
+	padding: 40px;
+}

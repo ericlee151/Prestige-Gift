@@ -205,7 +205,7 @@
 
 <div class="section section-yellow margin-small" align="center">
 	<h4>Just a few simple question, you will get the best gift ever!</h4>
-	<a href="/question">
+	<a href="/questions">
 		<button class="btn btn-bg btn-primary" style="background-color: black;">Find Me a Perfect Gift !
 		</button>
 	</a>

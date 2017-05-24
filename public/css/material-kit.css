@@ -3744,4 +3744,14 @@ h2.title {
   }
 }
 
+.nbs-flexisel-nav-left.disabled,
+.nbs-flexisel-nav-right.disabled{opacity:.4}
+.nbs-flexisel-container,.nbs-flexisel-item img{max-width:100%;position:relative}
+.nbs-flexisel-ul{position:relative;width:99999px;margin:0;padding:0;list-style-type:none}
+.nbs-flexisel-inner{overflow:hidden;width:100%}
+.nbs-flexisel-item{float:left;margin:0;padding:0;cursor:pointer;position:relative;line-height:0}
+.nbs-flexisel-item img{cursor:pointer;margin-top:10px;margin-bottom:10px}
+.nbs-flexisel-nav-left{left:-20px}
+.nbs-flexisel-nav-right{right:-20px}
+.nbs-flexisel-nav-left,.nbs-flexisel-nav-right{top:40%;position:absolute;cursor:pointer;z-index:100;opacity:.5}
 /*# sourceMappingURL=material-kit.css.map */

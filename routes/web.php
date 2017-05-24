@@ -13,7 +13,7 @@
 Route::get('/', function () {
     return view('layout/home');
 });
-Route::get('/question', function () {
+Route::get('/questions', function () {
     return view('layout/giftquestion');
 });
 Route::get('/package', function () {

@@ -2,7 +2,7 @@
 
 @section('header')
 <title>Prestige | Payment</title>
-<link href="{{ asset('/css/card.css') }}" rel="stylesheet"/>
+<link href="{{ asset('/css/payment.css') }}" rel="stylesheet"/>
 @endsection
 
 @section('body')
@@ -18,16 +18,16 @@
 					 	</a>
 					</li>
 					<li role="presentation">
-					 	<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
-					 		<i class="fa fa-paypal fa-2x" aria-hidden="true"></i> <br>PayPal
-					 	</a>
-					</li>
-					<li role="presentation">
-					 	<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+					 	<a href="#smart-luy" aria-controls="smart-luy" role="tab" data-toggle="tab">
 					 		<img src="{{asset('/picture/logo/logo2.png')}}" alt=""><br>Smart Luy</a>
 					</li>
 					<li role="presentation">
-						<a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+					 	<a href="#wing" aria-controls="wing" role="tab" data-toggle="tab">
+					 		<img src="{{asset('/picture/logo/logo4.png')}}" alt="" width="25px" height="25px"> <br>Wing
+					 	</a>
+					</li>
+					<li role="presentation">
+						<a href="#payandgo" aria-controls="payandgo" role="tab" data-toggle="tab">
 							<img src="{{asset('/picture/logo/logo3.png')}}" alt=""><br>Pay and Go
 						</a>
 					</li>
@@ -78,9 +78,120 @@
 					</div>
 					
 				</div>
-				<div role="tabpanel" class="tab-pane" id="profile">...dd</div>
-				<div role="tabpanel" class="tab-pane" id="messages">...</div>
-				<div role="tabpanel" class="tab-pane" id="settings">...</div>
+				<div role="tabpanel" class="tab-pane" id="wing">
+					
+					<div class="row">
+
+						<div class="col-sm-5 col-md-5">
+							<div class="card" id="padding">
+								<h3 align="center">Deposit 50%</h4>
+
+								<div class="form-group">
+		                            <label class="control-label">Card Number</label>
+		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
+		                        </div>
+		                        <div class="form-group">
+		                            <label class="control-label">Card Number</label>
+		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
+		                        </div>
+		                        <div class="checkbox">
+									<label>
+										<input type="checkbox" name="optionsCheckboxes">
+										By Checking this box, I agree to Terms, Condition Privacy and Policy
+									</label>
+								</div>
+		                        <div align="center">
+									<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;" data-toggle="modal" data-target="#myModal">Make A Payment</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-2 col-md-2 text-center" align="center">
+							<h2 id="bold">OR</h2>
+						</div>
+						<div class="col-sm-5 col-md-5">
+							<div class="card" id="padding">
+								<h3 align="center">Deposit 100%</h4>
+
+								<div class="form-group">
+		                            <label class="control-label">Card Number</label>
+		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
+		                        </div>
+		                        <div class="form-group">
+		                            <label class="control-label">Card Number</label>
+		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
+		                        </div>
+		                        <div class="checkbox">
+									<label>
+										<input type="checkbox" name="optionsCheckboxes">
+										By Checking this box, I agree to Terms, Condition Privacy and Policy
+									</label>
+								</div>
+		                        <div align="center">
+									<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;" data-toggle="modal" data-target="#myModal">Make A Payment</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+				</div>
+				<div role="tabpanel" class="tab-pane" id="smart-luy">
+					<h3 align="center">Please Fill in the form below</h3>
+					
+					<div class="row">
+						<div class="col-md-3 col-sm-3"></div>
+						<div class="col-md-6 col-sm-4">
+							<div class="card" id="padding">
+								<div class="form-group">
+		                            <label class="control-label">Phone Number</label>
+		                            <input type="number" required="required" class="form-control" placeholder="xxx-xxx-xxx" />
+		                        </div>
+		                        <div class="form-group">
+		                            <label class="control-label">Smart Luy Account</label>
+		                            <input type="number" required="required" class="form-control" placeholder="xxxxxxxxx" />
+		                        </div>
+		                        <div class="checkbox">
+									<label>
+										<input type="checkbox" name="optionsCheckboxes">
+										By Checking this box, I agree to Terms, Condition Privacy and Policy
+									</label>
+								</div>
+		                        <div align="center">
+									<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;" data-toggle="modal" data-target="#myModal">Make A Payment</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3"></div>
+					</div>
+				
+				</div>
+				<div role="tabpanel" class="tab-pane" id="payandgo">
+					<h3 align="center">Please Fill in the form below</h3>
+					<div class="row">
+						<div class="col-md-3 col-sm-3"></div>
+						<div class="col-md-6 col-sm-4">
+							<div class="card" id="padding">
+								<div class="form-group">
+		                            <label class="control-label">Phone Number</label>
+		                            <input type="number" required="required" class="form-control" placeholder="xxx-xxx-xxx" />
+		                        </div>
+		                        <div class="form-group">
+		                            <label class="control-label">Pay and Go Account ID</label>
+		                            <input type="number" required="required" class="form-control" placeholder="xxxxxxxxx" />
+		                        </div>
+		                        <div class="checkbox">
+									<label>
+										<input type="checkbox" name="optionsCheckboxes">
+										By Checking this box, I agree to Terms, Condition Privacy and Policy
+									</label>
+								</div>
+		                        <div align="center">
+									<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;" data-toggle="modal" data-target="#myModal">Make A Payment</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -102,22 +213,4 @@
     	</div>
   	</div>
 </div>
-<style type="text/css">
-	.margin{
-		margin-top: 100px;
-	}
-	.nav-tabs {
-	    background: #FFD700;
-	    border: 0;
-	    border-radius: 3px;
-	    padding: 20px 15px ;
-	}
-	.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-	    background-color: black;
-	    transition: background-color .1s .2s;
-	}
-	.modal-open .modal {
-		margin-top: 150px;
-	}
-</style>
 @endsection
