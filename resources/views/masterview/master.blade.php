@@ -64,11 +64,11 @@
 	   
 	      	<div id="navbar" class="navbar-collapse collapse">
 		        <ul class="nav navbar-nav navbar-left">
-		          	<li class="active"><a href="#">Home</a></li>
-		          	<li><a href="#">About Us</a></li>
+		          	<li class="active"><a href="/">Home</a></li>
+		          	<li><a href="#">Service</a></li>
 		        </ul>
 		        <ul class="nav navbar-nav navbar-right">
-		          	<li><a href="#">Service</a></li>
+		        	<li><a href="/aboutus">About Us</a></li>
 		          	<li><a href="#">Contact Us</a></li>
 		        </ul>
 	      	</div>
@@ -88,25 +88,22 @@
 				<img src="{{asset('/picture/logo/logo.png')}}" alt="">
 			</div>
 			<div class="row" align="left">
-				<div class="col-md-4 col-sm-6 text-center">
-					<h3 id="txt_footer">About Us</h3>
+				<div class="col-md-4 text-center">
+					<h3 id="txt_footer_bold">About Us</h3>
 					<p id="txt_footer">
-						Prestige offers Gift Consultation, Romantic Date planning and Premium Gift Packaging services, Which operates in Phnom Penh. 
+						Prestige gift is a service created in order to offer gift consultation, wrapping and delivery to reduce customers' time consumption and anxieties of not knowing which gift to buy, in a very convenient way.
 					</p>
 				</div>
-				<div class="col-md-4 col-sm-6 text-center">
-					<h3 id="txt_footer">Our Service</h3>
+				<div class="col-md-4 text-center">
+					<h3 id="txt_footer_bold">Our Service</h3>
 					<p id="txt_footer">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						- Gift Recommendation
+						<br>- Gift Inspiration
+						<br>- VIP Gift Consultation
 					</p>
 				</div>
-				<div class="col-md-4 col-sm-6 text-center">
-					<h3 id="txt_footer">Follow Us</h3>
+				<div class="col-md-4 text-center">
+					<h3 id="txt_footer_bold">Follow Us</h3>
 					<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPrestigeGiftShop%2F%3Ffref%3Dts&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="360" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 					<div style="margin-bottom: 20px;"></div>
 					<p id="txt_footer">Website : <a href="#" style="color: #FFD700;">www.prestigegift.com</a></p>

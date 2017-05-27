@@ -25,3 +25,6 @@ Route::get('/payment', function() {
 Route::get('/result',function(){
 	return view('layout/giftoption');
 });
+Route::get('/aboutus',function(){
+	return view('layout/aboutus');
+});

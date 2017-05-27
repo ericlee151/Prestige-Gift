@@ -29,8 +29,13 @@ body{
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+#txt_footer_bold{
+	color: #FFD700;
+	text-align: left;
+} 
 #txt_footer{
 	color: white;
+	text-align: left;
 } 
 #navbar ul, ol {
    	width: 45%;

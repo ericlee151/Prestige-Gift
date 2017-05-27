@@ -7,7 +7,8 @@
 
 @section('body')
 	<div class="margin">
-		<h2 style="text-align: center;font-weight: bold;margin-bottom: 80px;">SELECT PAYMENT METHOD</h2>
+
+		<h2 id="h2-style">SELECT PAYMENT METHOD</h2>
 		<div class="container" style="background-color: #FFD700;padding: 20px;">
 			<div>
 			  <!-- Nav tabs -->
@@ -44,34 +45,35 @@
 					<div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-8">
-							<div class="form-group">
-	                            <label class="control-label">Card Number</label>
-	                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
-	                        </div>
-	                        <div class="row">
-	                        	<div class="col-md-4 col-xs-4">
-	                        		<label class="control-label">Experation</label>
-	                            	<input type="number" required="required" class="form-control" placeholder="Month" />
-	                        	</div>
-	                        	<div class="col-md-4 col-xs-4">
-	                        		<label class="control-label">Card Number</label>
-	                            	<input type="number" required="required" class="form-control" placeholder="Year" />
-	                        	</div>
-	                        	<div class="col-md-4 col-xs-4">
-	                        		<label class="control-label">CVV Number</label>
-	                            	<input type="number" required="required" class="form-control" placeholder="xxxx" />
-	                        	</div>
-	                        </div>
-	                        <div class="checkbox">
-								<label>
-									<input type="checkbox" name="optionsCheckboxes">
-									By Checking this box, I agree to Terms, Condition Privacy and Policy
-								</label>
+							<div class="card" id="padding">
+								<div class="form-group">
+		                            <label class="control-label">Card Number</label>
+		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
+		                        </div>
+		                        <div class="row">
+		                        	<div class="col-md-4 col-xs-4">
+		                        		<label class="control-label">Experation</label>
+		                            	<input type="number" required="required" class="form-control" placeholder="Month" />
+		                        	</div>
+		                        	<div class="col-md-4 col-xs-4">
+		                        		<label class="control-label">Card Number</label>
+		                            	<input type="number" required="required" class="form-control" placeholder="Year" />
+		                        	</div>
+		                        	<div class="col-md-4 col-xs-4">
+		                        		<label class="control-label">CVV Number</label>
+		                            	<input type="number" required="required" class="form-control" placeholder="xxxx" />
+		                        	</div>
+		                        </div>
+		                        <div class="checkbox">
+									<label>
+										<input type="checkbox" name="optionsCheckboxes">
+										By Checking this box, I agree to Terms, Condition Privacy and Policy
+									</label>
+								</div>
+								<div align="center">
+									<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;" data-toggle="modal" data-target="#myModal">Make A Payment</button>
+								</div>
 							</div>
-							<div align="center">
-								<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;" data-toggle="modal" data-target="#myModal">Make A Payment</button>
-							</div>
-							
 						</div>
 						<div class="col-md-2"></div>
 
@@ -81,17 +83,17 @@
 				<div role="tabpanel" class="tab-pane" id="wing">
 					
 					<div class="row">
-
-						<div class="col-sm-5 col-md-5">
+						<div class="col-md-2"></div>
+						<div class="col-md-8">
 							<div class="card" id="padding">
-								<h3 align="center">Deposit 50%</h4>
+								<h3 align="center">Please fill in the information</h4>
 
 								<div class="form-group">
-		                            <label class="control-label">Card Number</label>
+		                            <label class="control-label">Wing Account</label>
 		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
 		                        </div>
 		                        <div class="form-group">
-		                            <label class="control-label">Card Number</label>
+		                            <label class="control-label">Phone Number</label>
 		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
 		                        </div>
 		                        <div class="checkbox">
@@ -105,32 +107,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-2 col-md-2 text-center" align="center">
-							<h2 id="bold">OR</h2>
-						</div>
-						<div class="col-sm-5 col-md-5">
-							<div class="card" id="padding">
-								<h3 align="center">Deposit 100%</h4>
-
-								<div class="form-group">
-		                            <label class="control-label">Card Number</label>
-		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
-		                        </div>
-		                        <div class="form-group">
-		                            <label class="control-label">Card Number</label>
-		                            <input type="number" required="required" class="form-control" placeholder="0000-0000-0000-0000" />
-		                        </div>
-		                        <div class="checkbox">
-									<label>
-										<input type="checkbox" name="optionsCheckboxes">
-										By Checking this box, I agree to Terms, Condition Privacy and Policy
-									</label>
-								</div>
-		                        <div align="center">
-									<button class="btn btn-warning btn-lg" style="background-color: black; width: auto;" data-toggle="modal" data-target="#myModal">Make A Payment</button>
-								</div>
-							</div>
-						</div>
+						
+						<div class="col-md-2"></div>
 					</div>
 				
 				</div>
@@ -138,8 +116,8 @@
 					<h3 align="center">Please Fill in the form below</h3>
 					
 					<div class="row">
-						<div class="col-md-3 col-sm-3"></div>
-						<div class="col-md-6 col-sm-6">
+						<div class="col-md-2 "></div>
+						<div class="col-md-8">
 							<div class="card" id="padding">
 								<div class="form-group">
 		                            <label class="control-label">Phone Number</label>
@@ -160,15 +138,15 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-3"></div>
+						<div class="col-md-2"></div>
 					</div>
 				
 				</div>
 				<div role="tabpanel" class="tab-pane" id="payandgo">
 					<h3 align="center">Please Fill in the form below</h3>
 					<div class="row">
-						<div class="col-md-3 col-sm-3"></div>
-						<div class="col-md-6 col-sm-4">
+						<div class="col-md-2 "></div>
+						<div class="col-md-8">
 							<div class="card" id="padding">
 								<div class="form-group">
 		                            <label class="control-label">Phone Number</label>
@@ -189,7 +167,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-3"></div>
+						<div class="col-md-2"></div>
 					</div>
 				</div>
 			</div>
